@@ -61,7 +61,7 @@ function applyColor2() {
 function applyColorText() {
     const color = document.getElementById('color-picker3').value;
     //const svgElements = svgContainer.querySelectorAll('path, circle, rect, polygon, polyline, ellipse, line');
-    const svgElements = svgContainer.querySelectorAll('.cls-7-a04'); // TODO
+    const svgElements = svgContainer.querySelectorAll('tspan');
     
     svgElements.forEach(element => {
         var currentStyle = `fill: ${color};`;
